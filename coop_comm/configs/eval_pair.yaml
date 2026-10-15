@@ -1,0 +1,13 @@
+speaker_checkpoint: runs/speaker_exp1/0/speaker.pt
+listener_checkpoint: runs/listener_exp1/1/listener.pt
+out_dir: runs/eval_pair
+splits: "val,test_layout,test_combo"
+levels: "L1,L2,L3"
+n_episodes: 300
+excluded_combos: "OBSTACLE:BLUE"
+K: 3
+H: 7
+W: 15
+V: 7
+max_steps: 200
+device: cpu

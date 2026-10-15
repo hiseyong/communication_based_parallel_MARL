@@ -1,0 +1,38 @@
+[val/L1] success=0.737 resp_acc=0.686 false_trig=0.2149 | zero_msg_success=0.060 shuffle_success=0.713
+[val/L2] success=0.603 resp_acc=0.818 false_trig=0.0775 | zero_msg_success=0.303 shuffle_success=0.667
+[val/L3] success=0.537 resp_acc=0.802 false_trig=0.2933 | zero_msg_success=0.110 shuffle_success=0.493
+[test_layout/L1] success=0.777 resp_acc=0.739 false_trig=0.1951 | zero_msg_success=0.060 shuffle_success=0.743
+[test_layout/L2] success=0.577 resp_acc=0.814 false_trig=0.0845 | zero_msg_success=0.283 shuffle_success=0.613
+[test_layout/L3] success=0.490 resp_acc=0.811 false_trig=0.3036 | zero_msg_success=0.110 shuffle_success=0.453
+[test_combo/L1] success=0.537 resp_acc=0.014 false_trig=0.0000 | zero_msg_success=0.073 shuffle_success=0.567
+[test_combo/L2] success=0.200 resp_acc=0.278 false_trig=0.0540 | zero_msg_success=0.097 shuffle_success=0.240
+[test_combo/L3] success=0.267 resp_acc=0.212 false_trig=0.0640 | zero_msg_success=0.063 shuffle_success=0.240
+[val/L1] success=0.760 resp_acc=0.597 false_trig=0.1757 | zero_msg_success=0.560 shuffle_success=0.750
+[val/L2] success=0.643 resp_acc=0.758 false_trig=0.0399 | zero_msg_success=0.623 shuffle_success=0.643
+[val/L3] success=0.627 resp_acc=0.735 false_trig=0.2388 | zero_msg_success=0.420 shuffle_success=0.600
+[test_layout/L1] success=0.817 resp_acc=0.708 false_trig=0.1640 | zero_msg_success=0.573 shuffle_success=0.807
+[test_layout/L2] success=0.617 resp_acc=0.737 false_trig=0.0494 | zero_msg_success=0.590 shuffle_success=0.607
+[test_layout/L3] success=0.550 resp_acc=0.687 false_trig=0.2395 | zero_msg_success=0.423 shuffle_success=0.567
+[test_combo/L1] success=0.523 resp_acc=0.000 false_trig=0.0000 | zero_msg_success=0.523 shuffle_success=0.523
+[test_combo/L2] success=0.197 resp_acc=0.238 false_trig=0.0200 | zero_msg_success=0.160 shuffle_success=0.227
+[test_combo/L3] success=0.267 resp_acc=0.191 false_trig=0.0557 | zero_msg_success=0.193 shuffle_success=0.287
+[val/L1] success=0.643 resp_acc=0.389 false_trig=0.0829 | zero_msg_success=0.533 shuffle_success=0.653
+[val/L2] success=0.443 resp_acc=0.897 false_trig=0.0672 | zero_msg_success=0.173 shuffle_success=0.573
+[val/L3] success=0.293 resp_acc=0.416 false_trig=0.0562 | zero_msg_success=0.080 shuffle_success=0.357
+[test_layout/L1] success=0.653 resp_acc=0.463 false_trig=0.0591 | zero_msg_success=0.537 shuffle_success=0.667
+[test_layout/L2] success=0.440 resp_acc=0.867 false_trig=0.0922 | zero_msg_success=0.173 shuffle_success=0.530
+[test_layout/L3] success=0.287 resp_acc=0.373 false_trig=0.0440 | zero_msg_success=0.090 shuffle_success=0.370
+[test_combo/L1] success=0.530 resp_acc=0.018 false_trig=0.0000 | zero_msg_success=0.530 shuffle_success=0.550
+[test_combo/L2] success=0.147 resp_acc=0.223 false_trig=0.0130 | zero_msg_success=0.073 shuffle_success=0.160
+[test_combo/L3] success=0.157 resp_acc=0.147 false_trig=0.0197 | zero_msg_success=0.093 shuffle_success=0.187
+summary (mean +- std over seeds):
+  val/L1: 0.713 +- 0.050 (n=3)
+  val/L2: 0.563 +- 0.086 (n=3)
+  val/L3: 0.486 +- 0.141 (n=3)
+  test_layout/L1: 0.749 +- 0.070 (n=3)
+  test_layout/L2: 0.544 +- 0.076 (n=3)
+  test_layout/L3: 0.442 +- 0.113 (n=3)
+  test_combo/L1: 0.530 +- 0.005 (n=3)
+  test_combo/L2: 0.181 +- 0.024 (n=3)
+  test_combo/L3: 0.230 +- 0.052 (n=3)
+LISTENER_EVAL_DONE

@@ -1,0 +1,13 @@
+out_dir: data/speaker
+split: train
+levels: "L1,L2,L3"
+episodes_per_level: 2000
+epsilon_min: 0.0
+epsilon_max: 0.3
+K: 3
+H: 7
+W: 15
+V: 7
+max_steps: 200
+excluded_combos: "OBSTACLE:BLUE"
+seed: 0

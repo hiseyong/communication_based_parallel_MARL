@@ -1,0 +1,33 @@
+  [greedy-eval] update=0 step=1024 level=L1 success_rate=0.000
+  [greedy-eval] update=100 step=103424 level=L1 success_rate=0.367
+  [greedy-eval] update=200 step=205824 level=L1 success_rate=0.367
+  [greedy-eval] update=300 step=308224 level=L1 success_rate=0.300
+curriculum: advancing to L2 at step 391040
+  [greedy-eval] update=400 step=410624 level=L2 success_rate=0.000
+  [greedy-eval] update=500 step=513024 level=L2 success_rate=0.000
+  [greedy-eval] update=600 step=615424 level=L2 success_rate=0.000
+  [greedy-eval] update=700 step=717824 level=L2 success_rate=0.033
+  [greedy-eval] update=800 step=820224 level=L2 success_rate=0.133
+  [greedy-eval] update=900 step=922624 level=L2 success_rate=0.100
+  [greedy-eval] update=1000 step=1025024 level=L2 success_rate=0.000
+  [greedy-eval] update=1100 step=1127424 level=L2 success_rate=0.033
+  [greedy-eval] update=1200 step=1229824 level=L2 success_rate=0.267
+  [greedy-eval] update=1300 step=1332224 level=L2 success_rate=0.033
+  [greedy-eval] update=1400 step=1434624 level=L2 success_rate=0.200
+  [greedy-eval] update=1500 step=1537024 level=L2 success_rate=0.333
+  [greedy-eval] update=1600 step=1639424 level=L2 success_rate=0.500
+  [greedy-eval] update=1700 step=1741824 level=L2 success_rate=0.467
+  [greedy-eval] update=1800 step=1844224 level=L2 success_rate=0.367
+  [greedy-eval] update=1900 step=1946624 level=L2 success_rate=0.467
+  [greedy-eval] update=2000 step=2049024 level=L2 success_rate=0.633
+  [greedy-eval] update=2100 step=2151424 level=L2 success_rate=0.567
+curriculum: advancing to L3 at step 2176784
+  [greedy-eval] update=2200 step=2253824 level=L3 success_rate=0.433
+  [greedy-eval] update=2300 step=2356224 level=L3 success_rate=0.500
+  [greedy-eval] update=2400 step=2458624 level=L3 success_rate=0.600
+  [greedy-eval] update=2500 step=2561024 level=L3 success_rate=0.567
+  [greedy-eval] update=2600 step=2663424 level=L3 success_rate=0.567
+  [greedy-eval] update=2700 step=2765824 level=L3 success_rate=0.633
+  [greedy-eval] update=2800 step=2868224 level=L3 success_rate=0.667
+  [greedy-eval] update=2900 step=2970624 level=L3 success_rate=0.633
+saved checkpoint -> runs/listener_exp1/0/listener.pt (reached L3)

@@ -1,0 +1,13 @@
+data_dir: data/speaker
+out_dir: runs/speaker_exp1/0
+seed: 0
+K: 3
+V: 7
+epochs: 30
+batch_size: 256
+lr: 0.001
+cnn_channels: 32
+hidden: 128
+gumbel: false
+class_weighted: true
+device: cpu

@@ -1,0 +1,52 @@
+saved 438184 samples -> data/speaker/train.npz
+class distribution: {'NONE': 0.5396500100414438, 'REQ_PLATE_RED': 0.03862760849323572, 'DONE': 0.16765103244299198, 'REQ_PLATE_GREEN': 0.045291475727091815, 'REQ_PLATE_BLUE': 0.04150995928650977, 'REQ_LEVER_RED': 0.08604148029138445, 'REQ_LEVER_GREEN': 0.08122843371734248}
+saved 86676 samples -> data/speaker/val.npz
+class distribution: {'NONE': 0.5339540357192303, 'REQ_LEVER_RED': 0.07994139092713093, 'DONE': 0.1716968941806267, 'REQ_PLATE_GREEN': 0.04269924777331672, 'REQ_PLATE_BLUE': 0.04184549356223176, 'REQ_LEVER_GREEN': 0.08216807420739305, 'REQ_PLATE_RED': 0.04769486363007061}
+saved 89284 samples -> data/speaker/test_layout.npz
+class distribution: {'NONE': 0.5343734599704314, 'REQ_LEVER_GREEN': 0.08927691411675104, 'DONE': 0.1670288069530935, 'REQ_PLATE_GREEN': 0.04030957394381972, 'REQ_PLATE_BLUE': 0.04210160835088034, 'REQ_LEVER_RED': 0.09094574615832623, 'REQ_PLATE_RED': 0.03596389050669773}
+saved 83976 samples -> data/speaker/test_combo.npz
+class distribution: {'NONE': 0.5344503191388016, 'REQ_LEVER_BLUE': 0.21365628274745166, 'DONE': 0.16457082976088405, 'REQ_PLATE_GREEN': 0.020100981232733163, 'REQ_LEVER_RED': 0.01914832809374107, 'REQ_PLATE_BLUE': 0.015563970658283318, 'REQ_LEVER_GREEN': 0.013575307230637325, 'REQ_PLATE_RED': 0.01893398113746785}
+epoch 0: train_loss=0.1132 train_acc=0.9633 val_loss=0.0006 val_acc=0.9999
+epoch 1: train_loss=0.0001 train_acc=1.0000 val_loss=0.0000 val_acc=1.0000
+epoch 2: train_loss=0.0000 train_acc=1.0000 val_loss=0.0000 val_acc=1.0000
+epoch 3: train_loss=0.0000 train_acc=1.0000 val_loss=0.0000 val_acc=1.0000
+epoch 4: train_loss=0.0000 train_acc=1.0000 val_loss=0.0000 val_acc=1.0000
+epoch 5: train_loss=0.0000 train_acc=1.0000 val_loss=0.0000 val_acc=1.0000
+epoch 6: train_loss=0.0000 train_acc=1.0000 val_loss=0.0000 val_acc=1.0000
+epoch 7: train_loss=0.0000 train_acc=1.0000 val_loss=0.0000 val_acc=1.0000
+epoch 8: train_loss=0.0000 train_acc=1.0000 val_loss=0.0000 val_acc=1.0000
+epoch 9: train_loss=0.0000 train_acc=1.0000 val_loss=0.0000 val_acc=1.0000
+epoch 10: train_loss=0.0000 train_acc=1.0000 val_loss=0.0000 val_acc=1.0000
+epoch 11: train_loss=0.0000 train_acc=1.0000 val_loss=0.0000 val_acc=1.0000
+epoch 12: train_loss=0.0000 train_acc=1.0000 val_loss=0.0000 val_acc=1.0000
+epoch 13: train_loss=0.0000 train_acc=1.0000 val_loss=0.0000 val_acc=1.0000
+epoch 14: train_loss=0.0000 train_acc=1.0000 val_loss=0.0000 val_acc=1.0000
+epoch 15: train_loss=0.0101 train_acc=0.9987 val_loss=0.0000 val_acc=1.0000
+epoch 16: train_loss=0.0000 train_acc=1.0000 val_loss=0.0000 val_acc=1.0000
+epoch 17: train_loss=0.0000 train_acc=1.0000 val_loss=0.0000 val_acc=1.0000
+epoch 18: train_loss=0.0000 train_acc=1.0000 val_loss=0.0000 val_acc=1.0000
+epoch 19: train_loss=0.0000 train_acc=1.0000 val_loss=0.0000 val_acc=1.0000
+epoch 20: train_loss=0.0000 train_acc=1.0000 val_loss=0.0000 val_acc=1.0000
+epoch 21: train_loss=0.0000 train_acc=1.0000 val_loss=0.0000 val_acc=1.0000
+epoch 22: train_loss=0.0000 train_acc=1.0000 val_loss=0.0000 val_acc=1.0000
+epoch 23: train_loss=0.0000 train_acc=1.0000 val_loss=0.0000 val_acc=1.0000
+epoch 24: train_loss=0.0000 train_acc=1.0000 val_loss=0.0000 val_acc=1.0000
+epoch 25: train_loss=0.0000 train_acc=1.0000 val_loss=0.0000 val_acc=1.0000
+epoch 26: train_loss=0.0000 train_acc=1.0000 val_loss=0.0000 val_acc=1.0000
+epoch 27: train_loss=0.0000 train_acc=1.0000 val_loss=0.0000 val_acc=1.0000
+epoch 28: train_loss=0.0000 train_acc=1.0000 val_loss=0.0000 val_acc=1.0000
+epoch 29: train_loss=0.0000 train_acc=1.0000 val_loss=0.0000 val_acc=1.0000
+saved checkpoint -> runs/speaker_exp1/0/speaker.pt
+[val] offline accuracy=1.0000
+[test_layout] offline accuracy=1.0000
+[test_combo] offline accuracy=0.7844
+[val/L1] online msg_acc=1.0000 task_success=1.0000
+[val/L2] online msg_acc=1.0000 task_success=1.0000
+[val/L3] online msg_acc=1.0000 task_success=1.0000
+[test_layout/L1] online msg_acc=1.0000 task_success=1.0000
+[test_layout/L2] online msg_acc=1.0000 task_success=1.0000
+[test_layout/L3] online msg_acc=1.0000 task_success=1.0000
+[test_combo/L1] online msg_acc=0.5099 task_success=0.0000
+[test_combo/L2] online msg_acc=0.4400 task_success=0.0000
+[test_combo/L3] online msg_acc=0.4312 task_success=0.0000
+SPEAKER_PIPELINE_DONE

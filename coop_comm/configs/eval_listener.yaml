@@ -1,0 +1,13 @@
+checkpoint: runs/listener_exp1/0/listener.pt
+out_dir: runs/listener_exp1/0/eval
+splits: "val,test_layout,test_combo"
+levels: "L1,L2,L3"
+n_episodes: 300
+response_T: 30
+excluded_combos: "OBSTACLE:BLUE"
+K: 3
+H: 7
+W: 15
+V: 7
+max_steps: 200
+device: cpu

@@ -1,0 +1,10 @@
+[val/L1] self-play(Speaker+Listener both sides)=0.550  scripted ceiling=1.000  gap=0.450
+[val/L2] self-play(Speaker+Listener both sides)=0.320  scripted ceiling=1.000  gap=0.680
+[val/L3] self-play(Speaker+Listener both sides)=0.323  scripted ceiling=1.000  gap=0.677
+[test_layout/L1] self-play(Speaker+Listener both sides)=0.623  scripted ceiling=1.000  gap=0.377
+[test_layout/L2] self-play(Speaker+Listener both sides)=0.300  scripted ceiling=1.000  gap=0.700
+[test_layout/L3] self-play(Speaker+Listener both sides)=0.347  scripted ceiling=1.000  gap=0.653
+[test_combo/L1] self-play(Speaker+Listener both sides)=0.000  scripted ceiling=1.000  gap=1.000
+[test_combo/L2] self-play(Speaker+Listener both sides)=0.000  scripted ceiling=1.000  gap=1.000
+[test_combo/L3] self-play(Speaker+Listener both sides)=0.000  scripted ceiling=1.000  gap=1.000
+EVAL_PAIR_DONE
